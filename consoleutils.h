@@ -6,7 +6,7 @@
 
 class ConsoleUtils
 {
-//swagswagswgagsnlguicrewtnhiouceghngthnutvnhgvwnhougvnhopugw5vohnpuvgohnugvhngv5inphg5vnhginophg
+
 private:
 	COORD lastPos;
 public:
