@@ -78,7 +78,7 @@ BOOL CALLBACK EnumWindowsProc(HWND hwnd, LPARAM lParam)
 	GetWindowText(hwnd, title, sizeof(title));
 	string ltitle = toLowerCase(title);
 
-	if (ltitle.find(titleSearch) != string::npos)
+	if (ltitle.find(toLowerCase(titleSearch)) != string::npos)
 	{
 		hWnd = hwnd;
 	}
